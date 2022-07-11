@@ -35,7 +35,7 @@
     transition: all 0.3s ease;
     svg {
         color: $SidebarText;
-        position: relative;
+        position: absolute;
     }
     .sidebar-label {
         opacity: 0;
@@ -46,7 +46,7 @@
         cursor: pointer;
         svg {
             color: $SidebarSecondary;
-            position: relative;
+            position: absolute;
         }
     }
 }
